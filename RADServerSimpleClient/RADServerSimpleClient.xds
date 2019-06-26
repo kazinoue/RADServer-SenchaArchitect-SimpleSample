@@ -1,0 +1,56 @@
+{
+    "name": "RADServerSimpleClient",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "6.7.0.63",
+            "frameworkVersion": "6.7.0.212"
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}",
+        "urlPrefix": "http://localhost:49948/",
+        "canvasControls": {
+            "viewportSize": {
+                "name": "iPhone",
+                "builtIn": true,
+                "height": 480,
+                "width": 320
+            },
+            "viewportOrientation": "portrait"
+        },
+        "exportPath": "",
+        "spacesToIndent": 4,
+        "sdkPath": "",
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true
+    },
+    "xdsVersion": "4.2.5",
+    "xdsBuild": 420,
+    "schemaVersion": 1,
+    "upgradeVersion": 310000000001,
+    "framework": "modern67",
+    "viewOrderMap": {
+        "view": [
+            "275afc94-9a48-445c-8852-ad15f4f20e55",
+            "80a2c06b-6e41-412e-b8e9-3d0751272511",
+            "75a1c394-80b9-4ea2-a42d-404340d92f59"
+        ],
+        "store": [
+            "0ce1cf21-5127-4e0e-9f1c-b4583fd28a12"
+        ],
+        "controller": [],
+        "model": [
+            "1d476521-b52e-4254-8e54-3570fda02a81"
+        ],
+        "resource": [
+            "90e1a628-5967-4334-84f2-b9a802ff0749",
+            "fe2d3018-2a9e-4f86-bcf6-c4834c86c4dc",
+            "9f739ef8-726d-439b-956d-26eb6a04e20c"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

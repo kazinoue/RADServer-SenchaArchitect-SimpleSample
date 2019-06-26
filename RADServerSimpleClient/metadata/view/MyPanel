@@ -1,0 +1,116 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "mypanel",
+        "designer|userClassName": "MyPanel",
+        "title": "My Panel"
+    },
+    "configAlternates": {
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "title": "string"
+    },
+    "name": "MyPanel",
+    "designerId": "275afc94-9a48-445c-8852-ad15f4f20e55",
+    "viewControllerInstanceId": "75a1c394-80b9-4ea2-a42d-404340d92f59",
+    "viewModelInstanceId": "80a2c06b-6e41-412e-b8e9-3d0751272511",
+    "cn": [
+        {
+            "type": "Ext.grid.Grid",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": "100%",
+                "store": "CustomerStore",
+                "width": "100%"
+            },
+            "configAlternates": {
+                "height": "auto",
+                "store": "store",
+                "width": "auto"
+            },
+            "name": "MyGrid",
+            "designerId": "bdcbc623-5514-4fe3-9c7b-b9acbd68813b",
+            "cn": [
+                {
+                    "type": "Ext.grid.column.RowNumberer",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "CUST_NO",
+                        "docked": null,
+                        "text": "CUST_ID",
+                        "width": 89
+                    },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "docked": "string",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyRowNumberer",
+                    "designerId": "92f7598e-ba92-431b-b180-1a03d3537385"
+                },
+                {
+                    "type": "Ext.grid.column.Text",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "CUSTOMER",
+                        "docked": null,
+                        "text": "NAME",
+                        "width": 130
+                    },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "docked": "string",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyTextColumn",
+                    "designerId": "8a4c0f61-095d-4bbb-8372-206884be89df"
+                },
+                {
+                    "type": "Ext.grid.column.Text",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "PHONE_NO",
+                        "docked": null,
+                        "height": 37,
+                        "text": "PHONE_NO",
+                        "width": 103
+                    },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "docked": "string",
+                        "height": "auto",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyTextColumn1",
+                    "designerId": "eef2c4f8-db23-4fbc-9482-43ab8e284b1e"
+                }
+            ]
+        }
+    ]
+}
