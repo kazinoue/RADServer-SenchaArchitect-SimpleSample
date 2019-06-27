@@ -29,10 +29,10 @@ Delphi 10.3.1 Enterprise / Architect で利用できます。
 下記２つのAPIを実装しています。
 実装の詳細は uEMSDataSetResource.pas を参照してください。
 
-GET http://localhost:8080/EMSDataSetResource/
+GET http://localhost:8080/EMSDataSetResource/<br>
 InterBase の EMPLOYEE.GDB データベースより CUSTOMER テーブルの一覧をJSON配列で返します。
 
-GET http://localhost:8080/EMSDataSetResource/{CUST_NO}
+GET http://localhost:8080/EMSDataSetResource/{CUST_NO}<br>
 InterBase の EMPLOYEE.GDB データベースより CUSTOMER テーブルから指定された CUST_NO のレコードをJSONで返します。
 
 ### FDBatchMoveJSONWriter による実装
@@ -40,10 +40,10 @@ InterBase の EMPLOYEE.GDB データベースより CUSTOMER テーブルから�
 下記２つのAPIを実装しています。
 実装の詳細は uBatchMove.pas を参照してください。
 
-GET http://localhost:8080/BatchMove/
+GET http://localhost:8080/BatchMove/<br>
 InterBase の EMPLOYEE.GDB データベースより CUSTOMER テーブルの一覧をJSON配列で返します。
 
-GET http://localhost:8080/BatchMove/{CUST_NO}
+GET http://localhost:8080/BatchMove/{CUST_NO}<br>
 InterBase の EMPLOYEE.GDB データベースより CUSTOMER テーブルから指定された CUST_NO のレコードをJSON配列で返します。
 
 ## Web Client 側の実装
