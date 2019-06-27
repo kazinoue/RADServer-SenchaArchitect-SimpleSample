@@ -2,10 +2,10 @@ unit uEMSDataSetResource;
 
 // EMS Resource Module
 //
-// EMSDataSetResource �ɂ��m�[�R�[�f�B���O�̎���
+// EMSDataSetResource によるノーコーディングの実装
 //
-//   GET http://localhost:8080/SimpleAPI/
-//   GET http://localhost:8080/SimpleAPI/{CUST_NO}
+//   GET http://localhost:8080/EMSDataSetResource/
+//   GET http://localhost:8080/EMSDataSetResource/{CUST_NO}
 
 interface
 
