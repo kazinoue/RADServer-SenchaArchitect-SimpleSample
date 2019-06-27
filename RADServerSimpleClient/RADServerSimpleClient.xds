@@ -6,8 +6,8 @@
             "cmdVersion": "6.7.0.63",
             "frameworkVersion": "6.7.0.212"
         },
-        "urlPrefixTemplate": "http://localhost:{port}/{path}",
-        "urlPrefix": "http://localhost:49948/",
+        "urlPrefixTemplate": "http://localhost:1841/{path}",
+        "urlPrefix": "http://localhost:1841/",
         "canvasControls": {
             "viewportSize": {
                 "name": "iPhone",
@@ -45,7 +45,7 @@
             "1d476521-b52e-4254-8e54-3570fda02a81"
         ],
         "resource": [
-            "90e1a628-5967-4334-84f2-b9a802ff0749",
+            "44cf264d-8e03-4009-a8d3-3c0dd3493f53",
             "fe2d3018-2a9e-4f86-bcf6-c4834c86c4dc",
             "9f739ef8-726d-439b-956d-26eb6a04e20c"
         ],
