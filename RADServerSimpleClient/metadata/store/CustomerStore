@@ -43,6 +43,12 @@
                         "type": "object"
                     },
                     "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "result"
+                    },
+                    "configAlternates": {
+                        "rootProperty": "string"
+                    },
                     "name": "MyJsonReader",
                     "designerId": "9514ff8e-b989-4627-bb50-76bbcfea7e9b"
                 }
